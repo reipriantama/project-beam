@@ -62,7 +62,6 @@ const OurPraEvent = () => {
           </p>
           <div>
             <Button primary={true} buttonText="JOIN OUR first meetup" />
-            {/* test */}
           </div>
         </div>
       </div>
