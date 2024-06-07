@@ -1,0 +1,35 @@
+.background-video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 16px; /* Adjust gap as needed */
+  }
+  
+  .overlay-item {
+    flex: 1;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 1rem;
+    border-radius: 8px; /* Adjust as needed */
+  }
+  
