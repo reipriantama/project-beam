@@ -2,7 +2,7 @@ import Button from "../../ui/button";
 
 const OurPraEvent = () => {
   return (
-    <div className="space-y-[72px] pb-[120px]">
+    <div className="space-y-[72px] pb-[120px] px-12">
       <div className="space-y-6 px-[134px]">
         <img src="/assets/ourPraEvent/praEventLogo.svg" alt="logo" />
         <h5 className="gradient-text text-[92px] font-semibold leading-[104px]">

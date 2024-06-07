@@ -7,7 +7,7 @@ import Layout from "./components/layout";
 
 function App() {
   return (
-    <Layout className="bg-[#F2F4F7] px-12">
+    <Layout className="bg-[#F2F4F7] ">
       <div>asdasd</div>
       <Marque />
       <OurPraEvent />
