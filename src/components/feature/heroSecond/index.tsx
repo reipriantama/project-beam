@@ -1,6 +1,6 @@
 const HeroSecond = () => {
   return (
-    <div className="pb-[120px]">
+    <div className="pb-[120px] px-12">
       <div className="xl:pb-[197px]">
         <img
           className="aspect-[158/48] h-full w-full rounded-3xl object-cover"
