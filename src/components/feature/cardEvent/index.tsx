@@ -36,7 +36,7 @@ const CardEvent = () => {
     tl.fromTo(
       ".card:not(:first-child)",
       {
-        y: () => window.innerHeight / 2 - 150,
+        y: () => window.innerHeight / 2 - 125,
       },
       {
         y: 0,
