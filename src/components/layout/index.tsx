@@ -1,14 +1,14 @@
-import React from "react";
 import Hero from "./hero";
 import Footer from "./footer";
+import Scroll from "./scroll";
 
 const Layout = (props: any) => {
   return (
-    <div className="">
+    <Scroll>
       <Hero />
       <div className={` ${props.className}`}>{props.children}</div>
       <Footer />
-    </div>
+    </Scroll>
   );
 };
 

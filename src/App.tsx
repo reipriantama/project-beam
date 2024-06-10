@@ -1,4 +1,5 @@
 import "./App.css";
+import CardEvent from "./components/feature/cardEvent";
 import HeroSecond from "./components/feature/heroSecond";
 import Marque from "./components/feature/marque";
 import OurPartners from "./components/feature/ourPartners";
@@ -14,6 +15,7 @@ function App() {
       <Marque />
       <OurPraEvent />
       <HeroSecond />
+      <CardEvent />
       <OurPartners />
     </Layout>
   );

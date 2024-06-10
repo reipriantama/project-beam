@@ -4,7 +4,7 @@ const OurPartners = () => {
   });
 
   return (
-    <div className="pb-[120px] px-12">
+    <div className="pt-[120px] pb-[120px] px-12">
       <div className="mx-auto max-w-[1920px] space-y-12">
         <h5>Our Partners</h5>
         <div className="grid grid-cols-4 gap-6">
