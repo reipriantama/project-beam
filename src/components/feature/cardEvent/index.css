@@ -1,0 +1,25 @@
+.cards {
+  height: 1008px;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.card-1 {
+  left: 0;
+  top: 0;
+}
+
+.card-2 {
+  left: 0;
+  top: 216px;
+}
+
+.card-3 {
+  left: 0;
+  top: 432px;
+}

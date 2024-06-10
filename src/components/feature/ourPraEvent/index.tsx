@@ -1,8 +1,38 @@
+import { useState } from "react";
 import Button from "../../ui/button";
 
-const OurPraEvent = () => {
+const Modal = ({ show, onClose }: any) => {
+  if (!show) return null;
+
   return (
-    <div className="space-y-[72px] pb-[120px] px-12">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+      <div className="p-8 rounded-md shadow-md">
+        <h2 className="mb-4 text-2xl text-white">Modal Title</h2>
+        <p className="mb-6 text-white">This is the modal content.</p>
+        <button
+          onClick={onClose}
+          className="px-4 py-2 text-blue-500 bg-white rounded"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  );
+};
+
+const OurPraEvent = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  return (
+    <div className="space-y-[72px] px-12 pb-[120px]">
       <div className="space-y-6 px-[134px]">
         <img src="/assets/ourPraEvent/praEventLogo.svg" alt="logo" />
         <h5 className="gradient-text text-[92px] font-semibold leading-[104px]">
@@ -61,10 +91,15 @@ const OurPraEvent = () => {
             a collective vision for our future.
           </p>
           <div>
-            <Button primary={true} buttonText="JOIN OUR first meetup" />
+            <Button
+              primary={true}
+              buttonText="JOIN OUR first meetup"
+              onClick={openModal}
+            />
           </div>
         </div>
       </div>
+      <Modal show={showModal} onClose={closeModal} />
     </div>
   );
 };
