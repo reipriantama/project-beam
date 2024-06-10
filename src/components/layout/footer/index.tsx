@@ -1,4 +1,3 @@
-import { ReactComponent as Logo } from "../../../assets/react.svg";
 import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa6";
 
 const Footer = () => {
