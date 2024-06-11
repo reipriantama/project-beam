@@ -34,8 +34,10 @@ const Modal = ({ show, onClose }: any) => {
       }
 
       console.log(data);
+      alert("Success!");
     } catch (error) {
       console.error("Error:", error);
+      alert("Error!");
     } finally {
       setIsLoading(false);
       onClose();
