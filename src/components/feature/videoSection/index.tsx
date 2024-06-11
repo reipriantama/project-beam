@@ -1,28 +1,30 @@
 import Button from "../../ui/button";
 import videoBg from "../../../assets/peopleRunning.mp4";
 import "./index.css";
+import { createPortal } from "react-dom";
+import Modal from "../modal";
+import { useState } from "react";
+
+const ModalPortal = ({ show, onClose }: any) => {
+  return createPortal(
+    show ? <Modal show={show} onClose={onClose} /> : null,
+    document.body,
+  );
+};
 
 const VideoSection = () => {
-  return (
-    <div className="px-12 pb-[120px]">
-      {/* video-------- */}
-      {/* <div className="relative mb-[108px] h-full w-full">
-        <div className="h-full aspect-video">
-          <video autoPlay loop muted className="w-full">
-            <source src={videoBg} type="video/mp4" />
-          </video>
-        </div>
-        <div className="absolute inset-0 grid grid-cols-6 gap-2 bg-red-600">
-          <div className="w-full h-96 mix-blend-multiply">a</div>
-          <div className="w-full h-96 mix-blend-multiply">a</div>
-          <div className="w-full h-96 mix-blend-multiply">a</div>
-          <div className="w-full h-96 mix-blend-multiply">a</div>
-          <div className="w-full h-96 mix-blend-multiply">a</div>
-          <div className="w-full h-96 mix-blend-multiply">a</div>
-        </div>
-      </div> */}
-      {/* test */}
+  const [showModal, setShowModal] = useState(false);
 
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  return (
+    <div className="px-12 pb-[120px] pt-[120px]">
       <section className="relative h-[620px] w-full overflow-hidden">
         <video
           src={videoBg}
@@ -57,8 +59,13 @@ const VideoSection = () => {
           transform into better versions of themselves, both physically and
           mentally. The initiative is endless like a river flows to the sea.
         </p>
-        <Button secondary={true} buttonText="JOIN OUR PRA-EVENT" />
+        <Button
+          secondary={true}
+          buttonText="JOIN OUR PRA-EVENT"
+          onClick={openModal}
+        />
       </div>
+      <ModalPortal show={showModal} onClose={closeModal} />
     </div>
   );
 };

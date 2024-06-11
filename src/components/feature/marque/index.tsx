@@ -53,11 +53,11 @@ const Marque = () => {
           <span className="text gradient-text mx-4 flex gap-4 text-[96px]">
             zone?
           </span>
-          <img
+          {/* <img
             className="max-h-[96px] w-full object-cover leading-[108px]"
             src="assets/marque/marque7.jpeg"
             alt="marque"
-          />
+          /> */}
         </div>
         <div
           aria-hidden="true"
@@ -112,11 +112,11 @@ const Marque = () => {
           <span className="text gradient-text mx-4 flex gap-4 text-[96px]">
             zone?
           </span>
-          <img
+          {/* <img
             className="max-h-[96px] w-full object-cover leading-[108px]"
             src="assets/marque/marque7.jpeg"
             alt="marque"
-          />
+          /> */}
         </div>
       </div>
 
@@ -173,11 +173,11 @@ const Marque = () => {
           <span className="text gradient-text mx-4 flex gap-4 text-[96px]">
             zone?
           </span>
-          <img
+          {/* <img
             className="max-h-[96px] w-full object-cover leading-[108px]"
             src="assets/marque/marque7.jpeg"
             alt="marque"
-          />
+          /> */}
         </div>
         <div
           aria-hidden="true"
@@ -232,11 +232,11 @@ const Marque = () => {
           <span className="text gradient-text mx-4 flex gap-4 text-[96px]">
             zone?
           </span>
-          <img
+          {/* <img
             className="max-h-[96px] w-full object-cover leading-[108px]"
             src="assets/marque/marque7.jpeg"
             alt="marque"
-          />
+          /> */}
         </div>
       </div>
     </div>
