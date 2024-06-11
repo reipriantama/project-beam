@@ -58,7 +58,7 @@ const Hero = () => {
           onClick={openModal}
         />
       </div>
-      <ModalPortal show={showModal} onClose={closeModal} />
+      <ModalPortal show={showModal} onClose={closeModal}  />
     </div>
   );
 };

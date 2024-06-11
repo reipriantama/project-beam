@@ -17,6 +17,7 @@ const Button = (props: any) => {
       <button
         className="flex items-center font-medium text-white uppercase font-hankenGrotesk tracking-20p"
         onClick={props.onClick}
+        type={props.type}
       >
         {props.buttonText}
         <div className="absolute p-2 bg-white rounded-full right-3">
