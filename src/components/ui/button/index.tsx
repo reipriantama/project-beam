@@ -15,18 +15,18 @@ const Button = (props: any) => {
   return (
     <div className={`group ${buttonClassname}`}>
       <button
-        className="font-medium text-white uppercase tracking-20p font-hankenGrotesk"
+        className="flex items-center font-medium text-white uppercase font-hankenGrotesk tracking-20p"
         onClick={props.onClick}
       >
         {props.buttonText}
+        <div className="absolute p-2 bg-white rounded-full right-3">
+          <img
+            className="transition duration-500 -rotate-90 size-4 group-hover:-rotate-0 group-hover:scale-150"
+            src="/assets/ui/button/arrowRight.svg"
+            alt="Arrow Right"
+          />
+        </div>
       </button>
-      <div className="absolute p-2 bg-white rounded-full right-3">
-        <img
-          className="transition duration-500 size-4 group-hover:-rotate-12 group-hover:scale-150"
-          src="/assets/ui/button/arrowRight.svg"
-          alt="Arrow Right"
-        />
-      </div>
     </div>
   );
 };

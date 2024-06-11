@@ -44,7 +44,7 @@ const CardEvent = () => {
         scrollTrigger: {
           trigger: ".cards",
           pin: true,
-          markers: true,
+          // markers: true,
           scrub: true,
           start: "top 50px",
           end: "center ",
