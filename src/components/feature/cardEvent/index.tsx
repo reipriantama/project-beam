@@ -56,7 +56,7 @@ const CardEvent = () => {
   });
 
   return (
-    <div className="cards h-screen px-6 lg:h-[1008px] lg:px-12">
+    <div className="cards min-h-[950px] px-6 lg:h-[1008px] lg:px-12">
       <div className="relative w-full p-[120px]">
         {programEvent.map((item, index) => (
           <div
