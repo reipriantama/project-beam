@@ -37,6 +37,7 @@ const CardEvent = () => {
       ".card:not(:first-child)",
       {
         y: () => window.innerHeight / 2 - 125,
+        invalidateOnRefresh: true,
       },
       {
         y: 0,
@@ -55,32 +56,40 @@ const CardEvent = () => {
   });
 
   return (
-    <div className="px-12 cards">
+    <div className="cards h-screen px-6 lg:h-[1008px] lg:px-12">
       <div className="relative w-full p-[120px]">
         {programEvent.map((item, index) => (
           <div
             key={index}
-            className={`${item.class} card flex aspect-[158/48] w-full justify-between gap-12 rounded-3xl ${item.bgCard} p-12 text-[#FCFCFD]`}
+            className={`${item.class} card flex aspect-[158/48] min-h-[485px] w-full flex-col-reverse justify-between gap-6 rounded-3xl lg:flex-row lg:gap-12 ${item.bgCard} p-3 text-[#FCFCFD] lg:p-12`}
           >
             <div className="flex flex-col justify-between">
               <div className="space-y-1 font-beVietnamPro">
                 <div className="flex items-center gap-3">
                   <div>
-                    <img src="/assets/cardEvent/programLogo.svg" alt="logo" />
+                    <img
+                      className="size-4 lg:size-5"
+                      src="/assets/cardEvent/programLogo.svg"
+                      alt="logo"
+                    />
                   </div>
-                  <div className="text-xl font-light leading-8 uppercase tracking-20p">
+                  <div className="text-xs font-light leading-4 uppercase mt tracking-20p lg:text-xl lg:leading-8">
                     Our Program
                   </div>
                 </div>
-                <div className="text-6xl font-medium leading-[80px]">
+                <div className="text-4xl font-medium leading-[44px] lg:text-6xl lg:leading-[80px]">
                   {item.title}
                 </div>
               </div>
-              <div className="space-y-6">
-                <div className="font-satoshi text-2xl leading-9 text-[#EAECF0]">
+              <div className="pb-3 space-y-6">
+                <div className="font-satoshi text-sm leading-6 text-[#EAECF0] lg:text-2xl lg:leading-9">
                   {item.desc}
                 </div>
-                <Button buttonText="Learn More" secondary={true} />
+                <Button
+                  buttonText="Learn More"
+                  secondary={true}
+                  className="w-[170px] lg:w-full"
+                />
               </div>
             </div>
             <div className="max-h-[480px] max-w-[584px] overflow-hidden">

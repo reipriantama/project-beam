@@ -22,35 +22,42 @@ const OurPraEvent = () => {
   };
 
   return (
-    <div className="space-y-[72px] px-12 pb-[120px]">
-      <div className="space-y-6 px-[134px]">
-        <img src="/assets/ourPraEvent/praEventLogo.svg" alt="logo" />
-        <h5 className="gradient-text text-[92px] font-semibold leading-[104px]">
-          Strengthen Your
-          <br />
-          Foundation
-        </h5>
+    <div className="px-6 pb-[60px] lg:space-y-[72px] lg:px-12 lg:pb-[120px]">
+      <div className="space-y-6 lg:px-[134px]">
+        <div className="flex items-center gap-3">
+          <img
+            className="size-4 lg:size-5"
+            src="/assets/ourPraEvent/praEventLogo.svg"
+            alt="logo"
+          />
+          <h1 className="text-xs leading-4 tracking-wider uppercase lg:text-xl lg:leading-8">
+            OUR PRA-EVENT
+          </h1>
+        </div>
+        <h1 className="gradient-text text-4xl font-semibold leading-[44px] lg:text-[92px] lg:leading-[104px]">
+          Strengthen Your <br className="hidden lg:block" /> Foundation
+        </h1>
       </div>
-      <div className="flex gap-[72px]">
-        <div className="flex gap-6">
-          <div className="mt-[120px] space-y-6">
+      <div className="mt-9 space-y-9 lg:flex lg:gap-[72px]">
+        <div className="flex gap-3 lg:gap-6">
+          <div className="space-y-3 lg:mt-[120px] lg:space-y-6">
             <div className="overflow-hidden rounded-xl">
               <img
-                className="aspect-[378/480] h-full w-full object-cover transition duration-700 ease-out hover:scale-125"
+                className="aspect-[378/480] object-cover transition duration-700 ease-out hover:scale-125 lg:h-full lg:w-full"
                 src="/assets/ourPraEvent/peopleRunning.jpeg"
                 alt="running"
               />
             </div>
             <div className="space-y-1">
-              <p className="text-[28px] font-semibold text-[#344054]">
+              <p className="text-base font-semibold text-[#344054] lg:text-[28px]">
                 Imam Rahmadan
               </p>
-              <p className="font-satoshi text-xl text-[#667085]">
+              <p className="font-satoshi text-[12px] leading-3 tracking-tighter text-[#667085] lg:text-xl lg:tracking-normal">
                 Komunitas Lari Strong Manis
               </p>
             </div>
           </div>
-          <div className="mt-[288px] space-y-6">
+          <div className="mt-12 space-y-6 lg:mt-[288px]">
             <div className="overflow-hidden rounded-xl">
               <img
                 className="aspect-[378/480] h-full w-full object-cover transition duration-700 ease-out hover:scale-125"
@@ -59,17 +66,17 @@ const OurPraEvent = () => {
               />
             </div>
             <div className="space-y-1">
-              <p className="text-[28px] font-semibold text-[#344054]">
+              <p className="text-base font-semibold text-[#344054] lg:text-[28px]">
                 Imam Rahmadan
               </p>
-              <p className="font-satoshi text-xl text-[#667085]">
+              <p className="font-satoshi text-[12px] leading-3 tracking-tighter text-[#667085] lg:text-xl lg:tracking-normal">
                 Komunitas Lari Strong Manis
               </p>
             </div>
           </div>
         </div>
         <div className="max-w-[598px] space-y-12">
-          <p className="font-satoshi text-[28px] font-medium leading-[48px] tracking-tighter text-[#344054]">
+          <p className="font-satoshi text-sm font-medium leading-6 tracking-tighter text-[#344054] lg:text-[28px] lg:leading-[48px]">
             An intimate gathering crafted by and for people who want to elevate
             their life in the creative city of Bandung. Join us to discover how
             to have a strong foundation on your next run and how to balance your
@@ -85,6 +92,7 @@ const OurPraEvent = () => {
               primary={true}
               buttonText="JOIN OUR first meetup"
               onClick={openModal}
+              className="w-[270px] lg:w-full"
             />
           </div>
         </div>
