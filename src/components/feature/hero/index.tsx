@@ -65,7 +65,7 @@ const Hero = () => {
         <Button
           buttonText="JOIN OUR first meetup"
           primary
-          className="w-[250px] lg:w-full"
+          className="w-[270px] lg:w-full"
           onClick={openModal}
         />
       </div>
