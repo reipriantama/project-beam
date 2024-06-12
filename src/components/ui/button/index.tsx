@@ -1,5 +1,5 @@
 const Button = (props: any) => {
-  const baseClassname = `relative flex cursor-pointer items-center gap-4 rounded-[76px] px-6 py-5`;
+  const baseClassname = `relative flex cursor-pointer items-center gap-4 rounded-[76px] p-4 lg:px-6 lg:py-5`;
   const primaryClass =
     "bg-orange max-w-[333px] transition duration-500 hover:bg-blue";
   const secondaryClass =
@@ -13,10 +13,9 @@ const Button = (props: any) => {
   const buttonClassname = `${baseClassname} ${appliedClass} ${props.className || ""}`;
 
   return (
-    <div className={`group ${buttonClassname}`}>
+    <div onClick={props.onClick} className={`group ${buttonClassname}`}>
       <button
-        className="flex items-center font-medium text-white uppercase font-hankenGrotesk tracking-20p"
-        onClick={props.onClick}
+        className="flex items-center text-xs font-medium text-white uppercase font-hankenGrotesk tracking-20p lg:text-base"
         type={props.type}
       >
         {props.buttonText}

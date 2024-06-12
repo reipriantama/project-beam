@@ -45,32 +45,37 @@ const Modal = ({ show, onClose }: any) => {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="max-w-[1136px] space-y-12 rounded-[48px] bg-white px-12 py-14 font-beVietnamPro shadow-md">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-6 bg-black bg-opacity-50 lg:p-12">
+      <div className="w-[312px] space-y-6 rounded-[48px] bg-white p-6 font-beVietnamPro shadow-md lg:w-[1136px] lg:space-y-12 lg:px-12 lg:py-14">
         <div className="flex items-start justify-between">
           <div className="">
-            <h2 className="text-7xl text-[#344054]">Let's get started.</h2>
-            <p className="text-2xl text-[#667085]">
+            <h2 className="text-2xl font-medium text-[#344054] lg:text-7xl">
+              Let's get started.
+            </h2>
+            <p className="text-xs font-normal text-[#667085] lg:text-2xl">
               Fill in the blanks and you will be registered!
             </p>
           </div>
           <button
             onClick={onClose}
-            className="text-blue-500 size-12 rounded-full bg-[#EAECF0] px-4 py-2"
+            className="text-blue-500 size-6 rounded-full bg-[#EAECF0] p-1 lg:size-12 lg:p-3"
           >
             <img
-              className="size-6"
+              className="size-4 lg:size-6"
               src="/assets/modal/closeIcon.svg"
               alt="icon"
             />
           </button>
         </div>
         <form
-          className="form grid grid-cols-2 gap-6 text-[#667085]"
+          className="form space-y-3 text-[#667085] lg:grid lg:grid-cols-2 lg:gap-6 lg:space-y-0"
           onSubmit={submitForm}
         >
-          <div className="flex flex-col w-full gap-2">
-            <label htmlFor="fullName" className="font-medium font-beVietnamPro">
+          <div className="flex flex-col w-full gap-1 lg:gap-2">
+            <label
+              htmlFor="fullName"
+              className="text-xs font-medium font-beVietnamPro lg:text-base"
+            >
               <span className="text-[#F14C41]">*</span> Full Name
             </label>
             <input
@@ -78,11 +83,14 @@ const Modal = ({ show, onClose }: any) => {
               id="fullName"
               name="FullName"
               placeholder="Please insert your full name here"
-              className="w-[496px] rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi"
+              className="w-full rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi text-xs lg:text-base"
             />
           </div>
-          <div className="flex flex-col w-full gap-2">
-            <label htmlFor="company" className="font-medium font-beVietnamPro">
+          <div className="flex flex-col w-full gap-1 lg:gap-2">
+            <label
+              htmlFor="company"
+              className="text-xs font-medium font-beVietnamPro lg:text-base"
+            >
               <span className="text-[#F14C41]">*</span> Name of your
               company/organisations?
             </label>
@@ -91,11 +99,14 @@ const Modal = ({ show, onClose }: any) => {
               id="company"
               name="Company"
               placeholder="Please insert your company/organisations"
-              className="w-[496px] rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi"
+              className="w-full rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi text-xs lg:text-base"
             />
           </div>
-          <div className="flex flex-col w-full gap-2">
-            <label htmlFor="email" className="font-medium font-beVietnamPro">
+          <div className="flex flex-col w-full gap-1 lg:gap-2">
+            <label
+              htmlFor="email"
+              className="text-xs font-medium font-beVietnamPro lg:text-base"
+            >
               <span className="text-[#F14C41]">*</span> Email
             </label>
             <input
@@ -103,11 +114,14 @@ const Modal = ({ show, onClose }: any) => {
               id="email"
               name="Email"
               placeholder="Please insert your email here"
-              className="w-[496px] rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi"
+              className="w-full rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi text-xs lg:text-base"
             />
           </div>
-          <div className="flex flex-col w-full gap-2">
-            <label htmlFor="phone" className="font-medium font-beVietnamPro">
+          <div className="flex flex-col w-full gap-1 lg:gap-2">
+            <label
+              htmlFor="phone"
+              className="text-xs font-medium font-beVietnamPro lg:text-base"
+            >
               <span className="text-[#F14C41]">*</span> Phone Number
             </label>
             <input
@@ -115,13 +129,13 @@ const Modal = ({ show, onClose }: any) => {
               id="phoneNumber"
               name="PhoneNumber"
               placeholder="Please insert your full phone number"
-              className="w-[496px] rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi"
+              className="w-full rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi text-xs lg:text-base"
             />
           </div>
-          <div className="flex flex-col w-full gap-2">
+          <div className="flex flex-col w-full gap-1 lg:gap-2">
             <label
               htmlFor="sportPreferences"
-              className="font-medium font-beVietnamPro"
+              className="text-xs font-medium font-beVietnamPro lg:text-base"
             >
               <span className="text-[#F14C41]">*</span> Sport Preferences
             </label>
@@ -130,13 +144,13 @@ const Modal = ({ show, onClose }: any) => {
               id="sportPreferences"
               name="SportPreferences"
               placeholder="Please insert your Sport Preferences"
-              className="w-[496px] rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi"
+              className="w-full rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi text-xs lg:text-base"
             />
           </div>
-          <div className="flex flex-col w-full gap-2">
+          <div className="flex flex-col w-full gap-1 lg:gap-2">
             <label
               htmlFor="creativePreferences"
-              className="font-medium font-beVietnamPro"
+              className="text-xs font-medium font-beVietnamPro lg:text-base"
             >
               <span className="text-[#F14C41]">*</span> Creative Preferences
             </label>
@@ -145,7 +159,7 @@ const Modal = ({ show, onClose }: any) => {
               id="creativePreferences"
               name="CreativePreferences"
               placeholder="Please insert your Creative Preferences"
-              className="w-[496px] rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi"
+              className="w-full rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi text-xs lg:text-base"
             />
           </div>
           {isLoading && (
@@ -155,11 +169,11 @@ const Modal = ({ show, onClose }: any) => {
               </div>
             </div>
           )}
-          <div className="flex justify-center w-full col-span-2">
+          <div className="flex w-full col-span-2 pt-3 lg:justify-center lg:pt-12">
             <Button
               buttonText="Submit"
               primary={true}
-              className="w-[159px]"
+              className="w-[120px] lg:w-[159px]"
               type="submit"
             />
           </div>

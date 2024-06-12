@@ -37,6 +37,7 @@ const CardEvent = () => {
       ".card:not(:first-child)",
       {
         y: () => window.innerHeight / 2 - 125,
+        invalidateOnRefresh: true,
       },
       {
         y: 0,
