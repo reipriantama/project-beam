@@ -40,6 +40,12 @@
   font-style: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h5 {
   font-family: "Be Vietnam Pro";
   font-weight: 600;
@@ -58,8 +64,6 @@ p {
   font-family: "satoshi";
   font-weight: 500;
 }
-
-
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
