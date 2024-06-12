@@ -4,10 +4,10 @@ const OurPartners = () => {
   });
 
   return (
-    <div className="pt-[120px] pb-[120px] px-12">
-      <div className="mx-auto max-w-[1920px] space-y-12">
-        <h5>Our Partners</h5>
-        <div className="grid grid-cols-4 gap-6">
+    <div className="px-6 pb-[60px] lg:px-12 lg:pb-[120px] lg:pt-[120px]">
+      <div className="mx-auto max-w-[1920px] space-y-6 lg:space-y-12">
+        <h5 className="text-2xl font-semibold lg:text-5xl">Our Partners</h5>
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-6">
           {imgOurPartners.map((item, index) => (
             <div
               key={index}
