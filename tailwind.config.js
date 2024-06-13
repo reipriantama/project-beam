@@ -18,7 +18,7 @@ export default {
         hankenGrotesk: ["Hanken Grotesk"],
       },
       animation: {
-        marquee: "marquee 20s linear infinite",
+        marquee: "marquee 15s linear infinite",
       },
       keyframes: {
         marquee: {

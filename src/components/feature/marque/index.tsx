@@ -6,51 +6,51 @@ const Marque = () => {
         <div className="flex items-center justify-around min-w-full py-4 shrink-0 animate-marquee lg:py-12">
           {/* marquee left 1 */}
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque1.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             Ready
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque2.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             To
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque3.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             leave
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque4.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             your
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque5.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             comfort
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque6.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             zone?
           </p>
         </div>
@@ -60,51 +60,51 @@ const Marque = () => {
         >
           {/* marquee left 2 */}
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque1.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             Ready
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque2.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             To
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque3.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             leave
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque4.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             your
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque5.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             comfort
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque6.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             zone?
           </p>
         </div>
@@ -116,51 +116,51 @@ const Marque = () => {
         <div className="flex min-w-full shrink-0 animate-marquee items-center justify-around py-6 [animation-direction:reverse] lg:py-12">
           {/* marquee right 1*/}
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque1.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             Ready
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque2.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             To
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque3.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             leave
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque4.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             your
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque5.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             comfort
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque6.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             zone?
           </p>
         </div>
@@ -170,51 +170,51 @@ const Marque = () => {
         >
           {/* marquee right 2 */}
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque1.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             Ready
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque2.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             To
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque3.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             leave
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque4.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             your
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque5.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             comfort
           </p>
           <img
-            className="max-h-[36px] w-full object-cover leading-[108px] lg:max-h-[96px]"
+            className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque6.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full items-center gap-4 text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
             zone?
           </p>
         </div>

@@ -36,8 +36,8 @@ const CardEvent = () => {
     tl.fromTo(
       ".card:not(:first-child)",
       {
-        y: () => window.innerHeight / 2 - 125,
-        invalidateOnRefresh: true,
+        y: () => 415,
+        // invalidateOnRefresh: true,
       },
       {
         y: 0,
@@ -55,15 +55,18 @@ const CardEvent = () => {
     );
   });
 
+  console.log(window.innerHeight);
+
   return (
     <div className="cards min-h-[950px] px-6 lg:h-[1008px] lg:px-12">
       <div className="relative w-full p-[120px]">
         {programEvent.map((item, index) => (
           <div
             key={index}
-            className={`${item.class} card flex aspect-[158/48] min-h-[485px] w-full flex-col-reverse justify-between gap-6 rounded-3xl lg:flex-row lg:gap-12 ${item.bgCard} p-3 text-[#FCFCFD] lg:p-12`}
+            // className={`${item.class} card flex aspect-[158/48] min-h-[485px] w-full flex-col-reverse justify-between gap-6 rounded-3xl lg:flex-row lg:gap-12 ${item.bgCard} p-3 text-[#FCFCFD] lg:p-12`}
+            className={`${item.class} card flex aspect-[158/48] min-h-[485px] w-full h-full flex-col-reverse justify-between gap-6 rounded-3xl lg:grid lg:grid-cols-3 lg:gap-12 ${item.bgCard} p-3 text-[#FCFCFD] lg:p-12`}
           >
-            <div className="flex flex-col justify-between">
+            <div className="flex flex-col justify-between lg:col-span-2">
               <div className="space-y-1 font-beVietnamPro">
                 <div className="flex items-center gap-3">
                   <div>
@@ -92,9 +95,9 @@ const CardEvent = () => {
                 />
               </div>
             </div>
-            <div className="max-h-[480px] max-w-[584px] overflow-hidden">
+            <div className="max-h-[480px] max-w-[584px] overflow-hidden rounded-xl">
               <img
-                className="aspect-[584/480] rounded-xl object-cover transition duration-700 ease-out hover:scale-125"
+                className="aspect-[584/480] h-full object-cover object-center transition duration-700 ease-out hover:scale-125"
                 src={item.img}
                 alt="bike"
               />

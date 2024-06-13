@@ -36,7 +36,7 @@ const Hero = () => {
         className="absolute inset-0 bg-black"
         style={{ opacity: 0.65 }}
       ></div>
-      <div className="fixed inset-0 top-0 left-0 w-screen h-full">
+      <div className="absolute inset-0 top-0 left-0 w-screen h-full">
         {/* Default image for large screens */}
         <img
           className="hidden object-cover w-full h-full lg:block"
