@@ -26,7 +26,7 @@ export default {
             transform: "translateX(0)",
           },
           to: {
-            transform: "translateX(calc(-100% - 2.5rem))",
+            transform: "translateX(calc(-100% - .1rem))",
           },
         },
       },
