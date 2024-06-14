@@ -8,10 +8,10 @@ gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 const Scroll = ({ children }: { children: React.ReactNode }) => {
   useGSAP(() => {
     ScrollSmoother.create({
-      smooth: 3,
-      effects: true,
-
-      smoothTouch: 1,
+      smooth: 2,
+      // effects: true,
+      smoothTouch: 0.1,
+      normalizeScroll: true,
     });
   });
   return (

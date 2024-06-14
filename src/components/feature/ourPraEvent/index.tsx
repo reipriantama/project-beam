@@ -37,10 +37,10 @@ const OurPraEvent = () => {
 
     tl.from(split.chars, {
       opacity: 0,
-      y: 10,
+      y: 50,
       duration: 2,
       ease: "back",
-      // stagger: 0.05,
+      stagger: 0.05,
       scrollTrigger: {
         trigger: "#text",
         // pin: true,
@@ -70,8 +70,8 @@ const OurPraEvent = () => {
 
   return (
     <div className="px-6 pb-[60px] lg:space-y-[72px] lg:px-12 lg:pb-[120px]">
-      <div className="space-y-6 lg:px-[134px]">
-        <div ref={logoAnimation} className="flex items-center gap-3">
+      <div ref={logoAnimation} className="space-y-6 lg:px-[134px]">
+        <div className="flex items-center gap-3">
           <img
             className="size-4 lg:size-5"
             src="/assets/ourPraEvent/praEventLogo.svg"
@@ -96,7 +96,10 @@ const OurPraEvent = () => {
               />
             </div>
             <div className="space-y-1">
-              <p className="text-base font-semibold text-[#344054] lg:text-[28px]">
+              <p
+                data-split-reveal
+                className="text-base font-semibold text-[#344054] lg:text-[28px]"
+              >
                 Imam Rahmadan
               </p>
               <p className="font-satoshi text-[12px] leading-3 tracking-tighter text-[#667085] lg:text-xl lg:tracking-normal">

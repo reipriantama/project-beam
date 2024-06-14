@@ -59,7 +59,10 @@ const VideoSection = () => {
         </div>
       </section>
 
-      <div className="mt-12 space-y-9 lg:mt-[108px] 2xl:ml-[134px]">
+      <div
+        data-split-reveal
+        className="mt-12 space-y-9 lg:mt-[108px] 2xl:ml-[134px]"
+      >
         <p className="max-w-[921px] text-sm leading-6 text-[#344054] lg:text-2xl lg:leading-10">
           The Bandung Elevate Meetup (BEAM) is set to take place in mid 2024 in
           Bandung. It's initiated with the goal of being a "Catalyst" for the
