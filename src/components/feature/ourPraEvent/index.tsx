@@ -1,7 +1,13 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Button from "../../ui/button";
 import Modal from "../modal";
 import { createPortal } from "react-dom";
+import gsap from "gsap";
+import { SplitText } from "gsap/SplitText";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(SplitText, ScrollTrigger);
 
 const ModalPortal = ({ show, onClose }: any) => {
   return createPortal(
@@ -12,6 +18,7 @@ const ModalPortal = ({ show, onClose }: any) => {
 
 const OurPraEvent = () => {
   const [showModal, setShowModal] = useState(false);
+  const logoAnimation = useRef(null);
 
   const closeModal = () => {
     setShowModal(false);
@@ -21,10 +28,50 @@ const OurPraEvent = () => {
     setShowModal(true);
   };
 
+  useGSAP(() => {
+    const tl = gsap.timeline();
+    const split = new SplitText("#text", {
+      type: "chars",
+      // position: "absolute",
+    });
+
+    tl.from(split.chars, {
+      opacity: 0,
+      y: 10,
+      duration: 2,
+      ease: "back",
+      // stagger: 0.05,
+      scrollTrigger: {
+        trigger: "#text",
+        // pin: true,
+        // markers: true,
+        scrub: true,
+        start: "top 50% ",
+        end: "top",
+        // invalidateOnRefresh: true,
+      },
+    });
+  });
+
+  useGSAP(() => {
+    gsap.from(logoAnimation.current, {
+      opacity: 0,
+      y: 10,
+      duration: 2,
+      ease: "back",
+      scrollTrigger: {
+        trigger: logoAnimation.current,
+        scrub: true,
+        start: "top 50% ",
+        end: "top",
+      },
+    });
+  });
+
   return (
     <div className="px-6 pb-[60px] lg:space-y-[72px] lg:px-12 lg:pb-[120px]">
       <div className="space-y-6 lg:px-[134px]">
-        <div className="flex items-center gap-3">
+        <div ref={logoAnimation} className="flex items-center gap-3">
           <img
             className="size-4 lg:size-5"
             src="/assets/ourPraEvent/praEventLogo.svg"
@@ -76,7 +123,10 @@ const OurPraEvent = () => {
           </div>
         </div>
         <div className="max-w-[598px] space-y-12">
-          <p className="font-satoshi text-sm font-medium leading-6 tracking-tighter text-[#344054] lg:text-[28px] lg:leading-[48px]">
+          <p
+            id="text"
+            className="font-satoshi text-sm font-medium leading-6 tracking-tighter text-[#344054] lg:text-[28px] lg:leading-[48px]"
+          >
             An intimate gathering crafted by and for people who want to elevate
             their life in the creative city of Bandung. Join us to discover how
             to have a strong foundation on your next run and how to balance your
