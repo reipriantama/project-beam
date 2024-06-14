@@ -14,7 +14,7 @@ const Modal = ({ show, onClose }: any) => {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbyxWsYrp9sTbkrHZ9zBknKhBERw-HSJ8z7HsSFfGYJISD3mTdaD-3lSSnwr-nlPFxz8/exec",
+        "https://script.google.com/macros/s/AKfycbzr992xUBDo9-nApquU4_P4uxpq6uRPw-C4V2CWk3Uve4pTJsyZ49zbUPUXN-WstaFf/exec",
         {
           method: "POST",
           body: formData,
