@@ -10,7 +10,7 @@ const Marque = () => {
             src="assets/marque/marque1.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
             Ready
           </p>
           <img
@@ -18,7 +18,7 @@ const Marque = () => {
             src="assets/marque/marque2.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
             To
           </p>
           <img
@@ -26,32 +26,32 @@ const Marque = () => {
             src="assets/marque/marque3.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            leave
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Leave
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque4.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            your
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Your
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque5.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            comfort
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Comfort
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque6.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            zone?
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Zone?
           </p>
         </div>
         <div
@@ -64,7 +64,7 @@ const Marque = () => {
             src="assets/marque/marque1.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
             Ready
           </p>
           <img
@@ -72,7 +72,7 @@ const Marque = () => {
             src="assets/marque/marque2.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
             To
           </p>
           <img
@@ -80,32 +80,32 @@ const Marque = () => {
             src="assets/marque/marque3.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            leave
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Leave
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque4.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            your
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Your
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque5.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            comfort
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Comfort
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque6.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            zone?
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Zone?
           </p>
         </div>
       </div>
@@ -120,7 +120,7 @@ const Marque = () => {
             src="assets/marque/marque1.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
             Ready
           </p>
           <img
@@ -128,7 +128,7 @@ const Marque = () => {
             src="assets/marque/marque2.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
             To
           </p>
           <img
@@ -136,32 +136,32 @@ const Marque = () => {
             src="assets/marque/marque3.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            leave
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Leave
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque4.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            your
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Your
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque5.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            comfort
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Comfort
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque6.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            zone?
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Zone?
           </p>
         </div>
         <div
@@ -174,7 +174,7 @@ const Marque = () => {
             src="assets/marque/marque1.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
             Ready
           </p>
           <img
@@ -182,7 +182,7 @@ const Marque = () => {
             src="assets/marque/marque2.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
             To
           </p>
           <img
@@ -190,32 +190,32 @@ const Marque = () => {
             src="assets/marque/marque3.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            leave
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Leave
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque4.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            your
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Your
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque5.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            comfort
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Comfort
           </p>
           <img
             className="max-h-[36px] object-cover leading-[108px] lg:max-h-[96px]"
             src="assets/marque/marque6.jpeg"
             alt="marque"
           />
-          <p className="gradient-text mx-4 flex h-full lg:h-[120px] items-center text-2xl lg:text-[96px]">
-            zone?
+          <p className="gradient-text mx-4 flex h-full items-center text-2xl lg:h-[120px] lg:text-[96px]">
+            Zone?
           </p>
         </div>
       </div>

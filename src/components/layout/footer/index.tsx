@@ -1,4 +1,4 @@
-// import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -10,11 +10,11 @@ const Footer = () => {
               Let’s collaborate with us!
             </p>
             <a
-              href="https://wa.me/6282219213975"
+              // href="https://wa.me/6282219213975"
               target="_blank"
               className="cursor-pointer text-[27px] font-medium underline lg:text-[54px]"
             >
-              Contact Us
+              info@beam.co.id
             </a>
           </div>
           <div className="flex flex-col gap-[72px] text-[#FAFAFA] lg:flex-row">
