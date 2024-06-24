@@ -40,16 +40,16 @@ const Footer = () => {
             </div> */}
           </div>
         </div>
-        <div className="mt-[126px] flex justify-center border-t-[1px] border-[#FF9242] pt-[26px] text-[#A5B1B3]">
+        <div className="mt-[126px] flex justify-center border-t-[1px] border-[#FF9242] pt-[26px] text-[#A5B1B3] lg:justify-between">
           <div className="text-sm font-satoshi lg:text-base">
             © 2024 Bandung Elevate Meetup
           </div>
-          {/* <div className="items-center hidden gap-3 lg:flex">
+          <div className="items-center hidden gap-3 lg:flex">
             <FaInstagram className="size-6" />
             <FaLinkedin className="size-6" />
             <FaYoutube className="size-6" />
             <FaTwitter className="size-6" />
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
