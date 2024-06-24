@@ -41,11 +41,11 @@ const OurPraEvent = () => {
       <div className="mt-9 space-y-9 lg:flex lg:gap-[72px]">
         {/* hide */}
 
-        {/* <div className="flex gap-3 lg:gap-6">
+        <div className="flex gap-3 lg:gap-6">
           <div className="space-y-3 lg:mt-[120px] lg:space-y-6">
             <div className="overflow-hidden rounded-xl">
               <img
-                className="aspect-[378/480] object-cover transition duration-700 ease-out hover:scale-125 lg:h-full lg:w-full"
+                className="aspect-[378/480] object-cover object-bottom transition duration-700 ease-out hover:scale-125 lg:h-full lg:w-full"
                 src="/assets/ourPraEvent/peopleRunning.jpeg"
                 alt="running"
               />
@@ -76,8 +76,8 @@ const OurPraEvent = () => {
               </p>
             </div>
           </div>
-        </div> */}
-        <div className="max-w-[] space-y-12">
+        </div>
+        <div className="max-w-[598px] space-y-12">
           <p className="font-satoshi text-sm font-medium leading-6 tracking-tighter text-[#344054] lg:text-[28px] lg:leading-[48px]">
             An intimate gathering crafted by and for people who want to elevate
             their life in the creative city of Bandung. Join us to discover how

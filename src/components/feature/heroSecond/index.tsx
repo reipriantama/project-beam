@@ -12,29 +12,30 @@ const HeroSecond = () => {
     gsap.to(parallaxImage.current, {
       scrollTrigger: {
         trigger: parallaxRef.current,
-        start: "top",
-        end: "bottom",
-        // pin: true,
+        start: "top 90%",
+        end: "center center",
         scrub: true,
-        markers: true,
         // markers: true,
       },
-      yPercent: 30,
+      yPercent: -20,
       ease: "none",
     });
   });
 
   return (
     <div className="px-6 pb-[60px] lg:px-12 lg:pb-[120px]">
-      <div ref={parallaxRef} className="h-[480px] overflow-hidden pb-[60px]">
+      <div
+        ref={parallaxRef}
+        className="relative overflow-hidden rounded-3xl pb-[]"
+      >
         <img
           ref={parallaxImage}
-          className="aspect-[1584/480] rounded-3xl object-cover lg:h-[480px] lg:w-full"
+          className="inset-0 aspect-[1584/480] h-full w-full rounded-3xl object-cover lg:h-full lg:w-full"
           src="/assets/heroSecond/running.jpeg"
           alt="running"
         />
       </div>
-      <div className="space-y-9 lg:space-y-[72px] lg:px-[134px] lg:pt-[180px]">
+      <div className="space-y-9 lg:space-y-[72px] lg:px-[134px] lg:pt-[]">
         <div className="max-w-[780px] space-y-6">
           <img
             className="h-9 lg:h-full"

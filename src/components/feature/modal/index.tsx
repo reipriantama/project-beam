@@ -46,7 +46,7 @@ const Modal = ({ show, onClose }: any) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-6 bg-black bg-opacity-50 lg:p-12">
-      <div className="w-[312px] space-y-6 rounded-[48px] bg-white p-6 font-beVietnamPro shadow-md lg:w-[1136px] lg:space-y-12 lg:px-12 lg:py-14">
+      <div className="h-[calc(100vh-100px)] w-[312px] space-y-6 overflow-auto rounded-[48px] bg-white p-6 font-beVietnamPro shadow-md lg:min-h-[632px] lg:w-[1136px] lg:space-y-12 lg:px-12 lg:py-14">
         <div className="flex items-start justify-between">
           <div className="space-y-2">
             <h2 className="text-2xl font-medium text-[#344054] lg:text-7xl">
