@@ -20,11 +20,18 @@ const Button = (props: any) => {
       >
         {props.buttonText}
         <div className="absolute p-2 bg-white rounded-full right-3">
-          <img
-            className="transition duration-500 -rotate-90 size-4 group-hover:-rotate-0 group-hover:scale-150"
-            src="/assets/ui/button/arrowRight.svg"
-            alt="Arrow Right"
-          />
+          <div className="relative top-0 left-0 overflow-hidden rounded-full">
+            <img
+              className="size-4 transition duration-500 group-hover:translate-x-[150%]"
+              src="/assets/ui/button/arrowRight.svg"
+              alt="Arrow Right"
+            />
+            <img
+              className="absolute left-0 top-0 size-4 -translate-x-[150%] transition duration-500 group-hover:translate-x-0"
+              src="/assets/ui/button/arrowRight.svg"
+              alt="Arrow Right"
+            />
+          </div>
         </div>
       </button>
     </div>

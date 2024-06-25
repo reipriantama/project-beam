@@ -3,9 +3,11 @@ const OurPartners = () => {
     {
       img: "/assets/ourPartners/logoPlabs.svg",
     },
-
     {
       img: "/assets/ourPartners/logoRuangDini.svg",
+    },
+    {
+      img: "/assets/ourPartners/logoIpsum.svg",
     },
   ];
 
@@ -19,7 +21,7 @@ const OurPartners = () => {
           {imgOurPartners.map((item, index) => (
             <div
               key={index}
-              className="flex w-full items-center justify-center rounded-lg p-5 lg:w-[378px]"
+              className="flex w-full items-center justify-center rounded-lg p-5 lg:w-[200px]"
             >
               <img src={item.img} alt="logo" />
             </div>
@@ -35,7 +37,7 @@ const OurPartners = () => {
             {imgOurPartners.map((item, index) => (
               <div
                 key={index}
-                className="flex w-full items-center justify-center rounded-lg p-5 lg:w-[378px]"
+                className="flex w-full items-center justify-center rounded-lg p-5 lg:w-[200px]"
               >
                 <img src={item.img} alt="logo" />
               </div>
@@ -50,7 +52,7 @@ const OurPartners = () => {
             {imgOurPartners.map((item, index) => (
               <div
                 key={index}
-                className="flex w-full items-center justify-center rounded-lg p-5 lg:w-[378px]"
+                className="flex w-full items-center justify-center rounded-lg p-5 lg:w-[200px]"
               >
                 <img src={item.img} alt="logo" />
               </div>

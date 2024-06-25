@@ -43,10 +43,10 @@ const OurPraEvent = () => {
 
         <div className="flex gap-3 lg:gap-6">
           <div className="space-y-3 lg:mt-[120px] lg:space-y-6">
-            <div className="overflow-hidden rounded-xl">
+            <div className="aspect-[378/480] overflow-hidden rounded-xl">
               <img
-                className="aspect-[378/480] object-cover object-bottom transition duration-700 ease-out hover:scale-125 lg:h-full lg:w-full"
-                src="/assets/ourPraEvent/peopleRunning.jpeg"
+                className="object-cover object-center transition duration-700 ease-out hover:scale-105 lg:h-full lg:w-full"
+                src="/assets/ourPraEvent/imgPraEvent.jpeg"
                 alt="running"
               />
             </div>
@@ -60,10 +60,10 @@ const OurPraEvent = () => {
             </div>
           </div>
           <div className="mt-12 space-y-6 lg:mt-[288px]">
-            <div className="overflow-hidden rounded-xl">
+            <div className="aspect-[378/480] overflow-hidden rounded-xl">
               <img
-                className="aspect-[378/480] h-full w-full object-cover transition duration-700 ease-out hover:scale-125"
-                src="/assets/ourPraEvent/peopleStand.jpeg"
+                className="object-cover object-center transition duration-700 ease-out hover:scale-105 lg:h-full lg:w-full"
+                src="/assets/ourPraEvent/imgPraEvent.jpeg"
                 alt="running"
               />
             </div>
