@@ -1,4 +1,10 @@
-import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa6";
+import {
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaWhatsapp,
+  FaYoutube,
+} from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -45,6 +51,9 @@ const Footer = () => {
             © 2024 Bandung Elevate Meetup
           </div>
           <div className="items-center hidden gap-3 lg:flex">
+            <a href="https://wa.me/6282219213975" target="_blank">
+              <FaWhatsapp className="cursor-pointer size-6" />
+            </a>
             <FaInstagram className="size-6" />
             <FaLinkedin className="size-6" />
             <FaYoutube className="size-6" />

@@ -61,11 +61,13 @@ const VideoSection = () => {
 
       <div className="mt-12 space-y-9 lg:mt-[108px] 2xl:ml-[134px]">
         <p className="max-w-[921px] text-sm leading-6 text-[#344054] lg:text-2xl lg:leading-10">
-          The Bandung Elevate Meetup (BEAM) is set to take place in mid 2024 in
-          Bandung. It's initiated with the goal of being a "Catalyst" for the
-          community, especially Generation Z, to achieve their resolutions and
-          transform into better versions of themselves, both physically and
-          mentally. The initiative is endless like a river flows to the sea.
+          Bandung Elevate Meetup 2024: Warming Up is here to prep your muscles
+          and minds for the upcoming bigger stage. Join us in an easy morning
+          run, followed by a lighthearted discussion on building a strong
+          foundation for your next long-distance run and balancing your career
+          and well-being. It doesn’t stop there—meet influential, like-minded
+          people and expand your experiences. Together, let’s navigate our
+          possibilities and create a vision for our shared future.
         </p>
         <Button
           secondary={true}
