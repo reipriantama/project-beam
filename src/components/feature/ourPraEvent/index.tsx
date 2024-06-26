@@ -46,7 +46,7 @@ const OurPraEvent = () => {
             <div className="aspect-[378/480] overflow-hidden rounded-xl">
               <img
                 className="object-cover object-center transition duration-700 ease-out hover:scale-105 lg:h-full lg:w-full"
-                src="/assets/ourPraEvent/imgPraEvent.jpeg"
+                src="/assets/ourPraEvent/imgPraEvent1.png"
                 alt="running"
               />
             </div>
@@ -63,13 +63,13 @@ const OurPraEvent = () => {
             <div className="aspect-[378/480] overflow-hidden rounded-xl">
               <img
                 className="object-cover object-center transition duration-700 ease-out hover:scale-105 lg:h-full lg:w-full"
-                src="/assets/ourPraEvent/imgPraEvent.jpeg"
+                src="/assets/ourPraEvent/imgPraEvent2.png"
                 alt="running"
               />
             </div>
             <div className="space-y-1">
               <p className="text-base font-semibold text-[#344054] lg:text-[28px]">
-                Imam Rahmadan
+                Aldila Septiadi
               </p>
               <p className="font-satoshi text-[12px] leading-3 tracking-tighter text-[#667085] lg:text-xl lg:tracking-normal">
                 Komunitas Lari Strong Manis

@@ -10,7 +10,7 @@ const ModalPortal = ({ show, onClose }: any) => {
   );
 };
 
-const Hero = () => {
+const Hero = (props: any) => {
   const [showModal, setShowModal] = useState(false);
 
   const closeModal = () => {
@@ -23,7 +23,7 @@ const Hero = () => {
 
   return (
     <div
-      className="relative h-screen w-full rounded-b-[48x] bg-[#F2F4F7] p-6 pt-[34px] drop-shadow lg:px-12"
+      className={`${props.className} relative h-screen w-full rounded-b-[48px] bg-[#F2F4F7] p-6 pt-[34px] drop-shadow lg:px-12`}
       style={{
         backgroundImage: 'url("/assets/hero/heroImage.png")',
         backgroundSize: "cover",

@@ -25,8 +25,8 @@ function App() {
   return isLoading ? (
     <Loader />
   ) : (
-    <Layout className="fade-in-from-bottom bg-[#F2F4F7]">
-      <Hero />
+    <Layout className="bg-[#F2F4F7]">
+      <Hero className="fade-in-from-bottom" />
       <VideoSection />
       <Marque />
       <OurPraEvent />
