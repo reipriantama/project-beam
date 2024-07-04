@@ -16,6 +16,7 @@ export default {
         beVietnamPro: ["Be Vietnam Pro"],
         satoshi: ["Satoshi"],
         hankenGrotesk: ["Hanken Grotesk"],
+        ibm: ["IBM Plex Sans"],
       },
       animation: {
         marquee: "marquee 15s linear infinite",

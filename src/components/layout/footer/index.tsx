@@ -16,7 +16,7 @@ const Footer = () => {
               Let’s collaborate with us!
             </p>
             <a
-              // href="https://wa.me/6282219213975"
+              href="mailto:info@beam.co.id"
               target="_blank"
               className="cursor-pointer text-[27px] font-medium underline lg:text-[54px]"
             >
