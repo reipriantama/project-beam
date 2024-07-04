@@ -1,4 +1,4 @@
-import Button from "../../ui/button";
+// import Button from "../../ui/button";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
