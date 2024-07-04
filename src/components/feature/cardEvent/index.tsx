@@ -40,7 +40,7 @@ const CardEvent = () => {
       ".card:not(:first-child)",
       {
         y: () => 415,
-        // invalidateOnRefresh: true,
+        invalidateOnRefresh: true,
       },
       {
         y: 0,

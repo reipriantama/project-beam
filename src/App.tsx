@@ -22,21 +22,24 @@ function App() {
 
     fakeDataFetch();
   }, []);
-  return isLoading ? (
-    <Loader />
-  ) : (
-    <Layout className="bg-[#F2F4F7]">
-      <Hero className="fade-in-from-bottom" />
-      <VideoSection />
-      <Marque />
-      <OurPraEvent />
-      <HeroSecond />
-      <CardEvent />
-      <OurPartners />
-    </Layout>
-  );
 
-  // return <Loader />;
+  return (
+    <>
+      {isLoading ? (
+        <Loader />
+      ) : (
+        <Layout className="bg-[#F2F4F7]">
+          <Hero className="fade-in-from-bottom" />
+          <VideoSection />
+          <Marque />
+          <OurPraEvent />
+          <HeroSecond />
+          <CardEvent />
+          <OurPartners />
+        </Layout>
+      )}
+    </>
+  );
 }
 
 export default App;
