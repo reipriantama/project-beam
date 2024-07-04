@@ -13,9 +13,9 @@ const HeroSecond = () => {
       scrollTrigger: {
         trigger: parallaxRef.current,
         start: "top 90%",
-        end: "center center",
+        end: "bottom bottom",
         scrub: true,
-        // markers: true,
+        markers: true,
       },
       yPercent: -20,
       ease: "none",
@@ -30,8 +30,8 @@ const HeroSecond = () => {
       >
         <img
           ref={parallaxImage}
-          className="inset-0 aspect-[1584/480] h-full w-full rounded-3xl object-cover lg:h-full lg:w-full"
-          src="/assets/heroSecond/running.jpeg"
+          className="inset-0 aspect-[] h-full w-full rounded-3xl object-cover lg:h-full lg:w-full"
+          src="/assets/heroSecond/homePage.jpg"
           alt="running"
         />
       </div>

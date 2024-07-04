@@ -144,7 +144,7 @@ const Modal = ({ show, onClose }: any) => {
               type="text"
               id="sportPreferences"
               name="SportPreferences"
-              placeholder="Please insert your Sport Preferences"
+              placeholder="Please insert your sport preferences (i.e. Running, Jogging, Swimming, etc.)"
               className="w-full rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi text-xs lg:text-base"
             />
           </div>
@@ -159,7 +159,7 @@ const Modal = ({ show, onClose }: any) => {
               type="text"
               id="creativePreferences"
               name="CreativePreferences"
-              placeholder="Please insert your Creative Preferences"
+              placeholder="Please insert your creative preferences (i.e. Writing, Photography, Videography, etc.)"
               className="w-full rounded-[4px] border-[1px] border-[#D0D5DD] p-3 font-satoshi text-xs lg:text-base"
             />
           </div>

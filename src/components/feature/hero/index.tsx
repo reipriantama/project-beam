@@ -23,7 +23,7 @@ const Hero = (props: any) => {
 
   return (
     <div
-      className={`${props.className} relative h-screen w-full rounded-b-[48px] bg-[#F2F4F7] p-6 pt-[34px] drop-shadow lg:px-12`}
+      className={`${props.className} relative h-screen w-full rounded-b-[] bg-[#F2F4F7] p-6 pt-[34px] drop-shadow lg:px-12`}
       style={{
         backgroundImage: 'url("/assets/hero/heroImage.png")',
         backgroundSize: "cover",
