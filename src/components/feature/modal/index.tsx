@@ -8,11 +8,20 @@ const Modal = ({ show, onClose }: any) => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const [isDisabled, setIsDisabled] = useState(false);
+  console.log(isDisabled);
 
   useEffect(() => {
     const input = document.getElementsByTagName("input");
-    
-  }, []);
+
+    for (let index = 0; index < input.length; index++) {
+      if (input[index].value === "") {
+        setIsDisabled(true);
+        break;
+      } else {
+        setIsDisabled(false);
+      }
+    }
+  }, [isDisabled]);
 
   const submitForm = async (e: any) => {
     e.preventDefault();

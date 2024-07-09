@@ -1,6 +1,6 @@
 import { FaInstagram, FaWhatsapp } from "react-icons/fa6";
 import PlabsIcon from "../../icon/plabsIcon";
-import RuangDiniIcon from "../../icon/ruangDiniIcon";
+// import RuangDiniIcon from "../../icon/ruangDiniIcon";
 
 const Footer = () => {
   return (

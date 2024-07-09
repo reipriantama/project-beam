@@ -3,7 +3,7 @@ import Button from "../../ui/button";
 import { createPortal } from "react-dom";
 import Modal from "../modal";
 import PlabsIcon from "../../icon/plabsIcon";
-import RuangDiniIcon from "../../icon/ruangDiniIcon";
+// import RuangDiniIcon from "../../icon/ruangDiniIcon";
 
 const ModalPortal = ({ show, onClose }: any) => {
   return createPortal(
