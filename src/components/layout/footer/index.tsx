@@ -1,10 +1,6 @@
-import {
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-  FaWhatsapp,
-  FaYoutube,
-} from "react-icons/fa6";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa6";
+import PlabsIcon from "../../icon/plabsIcon";
+import RuangDiniIcon from "../../icon/ruangDiniIcon";
 
 const Footer = () => {
   return (
@@ -23,7 +19,7 @@ const Footer = () => {
               info@beam.co.id
             </a>
           </div>
-          <div className="flex flex-col gap-[72px] text-[#FAFAFA] lg:flex-row">
+          <div className="flex flex-col gap-[72px] text-[#FAFAFA] lg:flex-col">
             <div className="max-w-[378px] space-y-3">
               <p className="font-beVietnamPro text-sm text-[#A5B1B3] lg:text-xl">
                 Our Address
@@ -33,6 +29,15 @@ const Footer = () => {
                 Jawa Barat 40114
               </p>
             </div>
+            <div className="z-10 flex items-center justify-start gap-5">
+              <PlabsIcon className="relative z-10 h-10" color={"white"} />
+              <img
+                className="w-16 brightness-0 contrast-[101%] hue-rotate-[270deg] invert saturate-100 sepia-[31%] filter lg:w-24"
+                src="/assets/ourPartners/logoRuangDini.svg"
+                alt="imge"
+              />
+            </div>
+
             {/* <div className="space-y-3 text-sm lg:text-base">
               <p className="text-[#A5B1B3]">Follow Us</p>
               <div className="flex flex-row gap-3 text-base font-medium font-satoshi lg:flex-col lg:text-xl">
@@ -46,6 +51,7 @@ const Footer = () => {
             </div> */}
           </div>
         </div>
+
         <div className="mt-[126px] flex justify-center border-t-[1px] border-[#FF9242] pt-[26px] text-[#A5B1B3] lg:justify-between">
           <div className="text-sm font-satoshi lg:text-base">
             © 2024 Bandung Elevate Meetup
@@ -54,10 +60,16 @@ const Footer = () => {
             <a href="https://wa.me/6282219213975" target="_blank">
               <FaWhatsapp className="cursor-pointer size-6" />
             </a>
-            <FaInstagram className="size-6" />
-            <FaLinkedin className="size-6" />
+            <a
+              href="https://www.instagram.com/officialbeam_id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              target="_blank"
+            >
+              <FaInstagram className="size-6" />
+            </a>
+            {/* hide */}
+            {/* <FaLinkedin className="size-6" />
             <FaYoutube className="size-6" />
-            <FaTwitter className="size-6" />
+            <FaTwitter className="size-6" /> */}
           </div>
         </div>
       </div>

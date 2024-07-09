@@ -72,7 +72,7 @@ const OurPraEvent = () => {
                 Aldila Septiadi
               </p>
               <p className="font-satoshi text-[12px] leading-3 tracking-tighter text-[#667085] lg:text-xl lg:tracking-normal">
-                Komunitas Lari Strong Manis
+                VP, Founder, Enterpreneur - Ultra Cycling & Running Enthusiast
               </p>
             </div>
           </div>
@@ -94,7 +94,7 @@ const OurPraEvent = () => {
               primary={true}
               buttonText="JOIN OUR first meetup"
               onClick={openModal}
-              className="w-[270px] lg:w-full"
+              className="w-[270px] lg:w-[333px]"
             />
           </div>
         </div>

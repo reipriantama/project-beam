@@ -1,9 +1,9 @@
 const Button = (props: any) => {
   const baseClassname = `relative flex cursor-pointer items-center gap-4 rounded-[76px] p-4 lg:px-6 lg:py-5`;
   const primaryClass =
-    "bg-orange max-w-[333px] transition duration-500 hover:bg-blue";
+    "bg-orange max-w[333px] transition duration-500 hover:bg-blue";
   const secondaryClass =
-    "bg-blue max-w-[301px] transition duration-500 hover:bg-orange";
+    "bg-blue max-w[301px] transition duration-500 hover:bg-orange";
   const appliedClass = props.primary
     ? primaryClass
     : props.secondary

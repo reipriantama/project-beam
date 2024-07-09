@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "../../ui/button";
 import { CgSpinner } from "react-icons/cg";
 
@@ -6,6 +6,13 @@ const Modal = ({ show, onClose }: any) => {
   if (!show) return null;
   const [isLoading, setIsLoading] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const [isDisabled, setIsDisabled] = useState(false);
+
+  useEffect(() => {
+    const input = document.getElementsByTagName("input");
+    
+  }, []);
 
   const submitForm = async (e: any) => {
     e.preventDefault();
@@ -178,9 +185,6 @@ const Modal = ({ show, onClose }: any) => {
                   primary={true}
                   className="w-[120px] lg:w-[159px]"
                   type="submit"
-                  onClick={() => {
-                    window.open("https://api.whatsapp.com/", "_blank");
-                  }}
                 />
               </div>
             </form>
@@ -220,7 +224,13 @@ const Modal = ({ show, onClose }: any) => {
               <Button
                 buttonText="Join the community so you won’t miss something!"
                 primary={true}
-                className="max-w-[657px]"
+                className="min-w-[657px]"
+                onClick={() => {
+                  window.open(
+                    "https://chat.whatsapp.com/L1z9RBmm5IIDBpOIkFYqlB",
+                    "_blank",
+                  );
+                }}
               />
             </div>
             <div className="flex justify-center w-full lg:hidden">
@@ -228,6 +238,12 @@ const Modal = ({ show, onClose }: any) => {
                 buttonText="Join our WA community"
                 primary={true}
                 className="min-w-[270px]"
+                onClick={() => {
+                  window.open(
+                    "https://chat.whatsapp.com/L1z9RBmm5IIDBpOIkFYqlB",
+                    "_blank",
+                  );
+                }}
               />
             </div>
           </div>

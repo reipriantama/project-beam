@@ -2,6 +2,8 @@ import { useState } from "react";
 import Button from "../../ui/button";
 import { createPortal } from "react-dom";
 import Modal from "../modal";
+import PlabsIcon from "../../icon/plabsIcon";
+import RuangDiniIcon from "../../icon/ruangDiniIcon";
 
 const ModalPortal = ({ show, onClose }: any) => {
   return createPortal(
@@ -50,12 +52,24 @@ const Hero = (props: any) => {
           alt="logo"
         />
       </div>
-      <div className="flex justify-start object-cover">
+      <div className="flex items-center justify-between object-cover">
         <img
           className="z-10 h-6 lg:h-10"
           src="/assets/hero/heroLogo.svg"
           alt="logo"
         />
+        <div className="z-10 flex items-center gap-5">
+          <PlabsIcon
+            className="lg:[170px] relative z-10 w-[120px]"
+            color={"white"}
+          />
+          {/* <RuangDiniIcon className="relative z-10 h-10" color={"white"} /> */}
+          <img
+            className="w-14 brightness-0 contrast-[101%] hue-rotate-[270deg] invert saturate-100 sepia-[31%] filter lg:w-24"
+            src="/assets/ourPartners/logoRuangDini.svg"
+            alt="imge"
+          />
+        </div>
       </div>
 
       <div className="flex h-full flex-col items-center justify-center gap-6 text-center lg:justify-end lg:pb-[240px]">
@@ -65,7 +79,7 @@ const Hero = (props: any) => {
         <Button
           buttonText="JOIN OUR first meetup"
           primary
-          className="w-[270px] lg:w-full"
+          className="w-[270px] lg:min-w-[333px]"
           onClick={openModal}
         />
       </div>

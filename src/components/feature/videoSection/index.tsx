@@ -71,9 +71,9 @@ const VideoSection = () => {
         </p>
         <Button
           secondary={true}
-          buttonText="JOIN OUR PRA-EVENT"
+          buttonText="PRE-EVENT"
           onClick={openModal}
-          className="w-[255px] lg:w-full"
+          className="w-[255px] lg:w-[200px]"
         />
       </div>
       <ModalPortal show={showModal} onClose={closeModal} />
